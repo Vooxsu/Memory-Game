@@ -1,0 +1,89 @@
+body {
+    background-color: #515151;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    position: absolute;
+    padding: 3%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10em;
+    color: ghostwhite;
+}
+
+#easy:hover {
+    animation-name: e;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+}
+
+#normal:hover {
+    animation-name: n;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+}
+
+@keyframes e {
+    0% {
+        transform: rotate(0deg);
+        font-size: 1em;
+        color: ghostwhite;
+        border-bottom: 0px solid white;
+    }
+    25% {
+        transform: rotate(-12deg);
+    }
+    50% {
+        transform: rotate(0deg);
+        font-size: 1.2em;
+        color: greenyellow;
+        border-bottom: 3px solid white;
+    }
+    75% {
+        transform: rotate(12deg);
+    }
+    100% {
+        transform: rotate(0deg);
+        font-size: 1em;
+        color: ghostwhite;
+        border-bottom: 0px solid white;
+    }
+}
+
+@keyframes n {
+    0% {
+        transform: rotate(0deg);
+        font-size: 1em;
+        color: ghostwhite;
+        border-top: 0px solid white;
+    }
+    25% {
+        transform: rotate(-12deg);
+    }
+    50% {
+        transform: rotate(0deg);
+        font-size: 1.2em;
+        color: dodgerblue;
+        border-top: 3px solid white;
+    }
+    75% {
+        transform: rotate(12deg);
+    }
+    100% {
+        transform: rotate(0deg);
+        font-size: 1em;
+        color: ghostwhite;
+        border-top: 0px solid white;
+    }
+}

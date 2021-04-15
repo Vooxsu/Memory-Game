@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Memory</title>
+    <link rel="Stylesheet" type="text/css" href="Style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <div id="zdobyte">
+        <div class="cardWon" id="z0"></div>
+        <div class="cardWon" id="z1"></div>
+        <div class="cardWon" id="z2"></div>
+        <div class="cardWon" id="z3"></div>
+        <div class="cardWon" id="z4"></div>
+        <div class="cardWon" id="z5"></div>
+        <div class="cardWon" id="z6"></div>
+        <div class="cardWon" id="z7"></div>
+    </div>
+    <button id="start" onclick="start();zegar();">Start Gry</button>
+    <div id="conteiner">
+        <div class="card" id="c0" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c1" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c2" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c3" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c4" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c5" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c6" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c7" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c8" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c9" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c10" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c11" onclick="zagraj(this.id)"></div>
+
+        <div class="card" id="c12" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c13" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c14" onclick="zagraj(this.id)"></div>
+        <div class="card" id="c15" onclick="zagraj(this.id)"></div>
+
+    </div>
+    <div id="pkt">0</div>
+    <div id="clk">0</div>
+    <div id="Wygrana"></div>
+    <div id="timmer"></div>
+    <div id="renew" onclick="renew()">Zagraj Od Now</div><button id="back">Menu</button>
+    <script type="text/javascript" src="memo.js"></script>
+</body>
+
+</html>

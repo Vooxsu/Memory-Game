@@ -1,0 +1,251 @@
+body {
+    background-color: #515151;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    background-color: SlateGray;
+    animation-name: pojawianie;
+    animation-iteration-count: 1;
+    animation-duration: 0.300s;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.cardWon {
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    animation-name: pojawianie;
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+    border-radius: 50%;
+}
+
+#conteiner {
+    position: absolute;
+    top: 48%;
+    left: 32%;
+    width: 330px;
+    transform: translate(-50%, -50%);
+}
+
+#zdobyte {
+    position: absolute;
+    right: 0%;
+    top: 40%;
+    transform: translate(0%, -50%);
+    width: 325px;
+
+}
+
+#start {
+    border: 0;
+    padding: 25px;
+    font-size: 36px;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    display: block;
+    transform: translate(-50%, -16%);
+}
+
+#back {
+    border: 0;
+    padding: 25px;
+    font-size: 36px;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    display: none;
+    transform: translate(-50%, -16%);
+}
+
+#pkt {
+    position: absolute;
+    left: 50%;
+    color: white;
+    top: 0%;
+    transform: translate(-50%, -0%);
+    font-size: 64px;
+}
+
+#Wygrana {
+    position: absolute;
+    left: 50%;
+    color: white;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15em;
+    background-color: transparent;
+    border: 15px dotted green;
+    display: none;
+    animation-name: pojawianie;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+}
+
+#renew {
+    color: black;
+    font-size: 38px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 0;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    display: none;
+}
+
+#clk {
+    color: black;
+    font-size: 38px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 0;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+@keyframes pojawianie {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#c0 {
+    display: none;
+}
+
+#c1 {
+    display: none;
+}
+
+#c2 {
+    display: none;
+}
+
+#c3 {
+    display: none;
+}
+
+#c4 {
+    display: none;
+}
+
+#c5 {
+    display: none;
+}
+
+#c6 {
+    display: none;
+}
+
+#c7 {
+    display: none;
+}
+
+#c8 {
+    display: none;
+}
+
+#c9 {
+    display: none;
+}
+
+#c10 {
+    display: none;
+}
+
+#c11 {
+    display: none;
+}
+
+#c12 {
+    display: none;
+}
+
+#c13 {
+    display: none;
+}
+
+#c14 {
+    display: none;
+}
+
+#c15 {
+    display: none;
+}
+
+#z0 {
+    display: none;
+    animation-name: pojawianie;
+    animation-iteration-count: 1;
+    animation-duration: 0.3s;
+}
+
+#z1 {
+    display: none;
+    animation-name: pojawianie;
+    animation-iteration-count: 1;
+    animation-duration: 0.3s;
+}
+
+#z2 {
+    display: none;
+    animation-name: pojawianie;
+    animation-iteration-count: 1;
+    animation-duration: 0.3s;
+}
+
+#z3 {
+    display: none;
+    animation-name: pojawianie;
+    animation-iteration-count: 1;
+    animation-duration: 0.3s;
+}
+
+#z4 {
+    display: none;
+    animation-name: pojawianie;
+    animation-iteration-count: 1;
+    animation-duration: 0.3s;
+}
+
+#z5 {
+    display: none;
+    animation-name: pojawianie;
+    animation-iteration-count: 1;
+    animation-duration: 0.3s;
+}
+
+#z6 {
+    display: none;
+    animation-name: pojawianie;
+    animation-iteration-count: 1;
+    animation-duration: 0.3s;
+}
+
+#z7 {
+    display: none;
+    animation-name: pojawianie;
+    animation-iteration-count: 1;
+    animation-duration: 0.3s;
+}
+
+#timmer {
+    color: white;
+    bottom: 0%;
+    left: 0%;
+    position: absolute;
+    font-size: 64px;
+}
